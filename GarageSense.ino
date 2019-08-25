@@ -29,10 +29,12 @@ void setup() {
 void loop() {
   //Limit switch state read
   if (digitalRead(limitSw) == HIGH){
+//    Serial.println("OPEN"); //DEBUG
     relay(ON);
   }
   else{
     relay(OFF);
+//    Serial.println("CLOSED"); //DEBUG
   }
   //Delay
   delay(50);
