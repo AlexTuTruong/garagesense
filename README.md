@@ -1,6 +1,6 @@
 # GarageSense
 
-An ardunino microcontroller program to use a digital input to switch a relay on and off
+An arduino microcontroller program to use a digital input to switch a relay on and off
 
 ## Description
 
@@ -12,7 +12,7 @@ This was originally created as a cheap, simple method of identifying if my garag
 
 #### Hardware
 
-* Micro Controller (Ardunio or otherwise)
+* Micro Controller (Arduino or otherwise)
 * Limit Switch
 * Relay
 
